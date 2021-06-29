@@ -1,0 +1,70 @@
+.side{
+     
+    flex: 3; /*to get a fixed space on page*/
+    height: calc(100vh - 50px); 
+    /*-50px is because of topbar height is 50%*/
+    background-color: rgb(65, 145, 148); 
+   overflow-y: scroll;
+   position: sticky;
+   top: 50px;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: gray;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(80, 8, 214);
+}
+
+
+.sidebarWrapper{
+    padding: 20px;
+}
+
+.sidebarList{
+   margin: 0;
+   padding: 0;
+   list-style: none; /*to avoid numbering of the list*/
+   
+}
+
+.sidebarListItem{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.sidebarIcon{
+  margin-right: 15px;
+}
+
+.sidebarListItemText{}
+
+.sidebarButton{
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.sidebarHr{
+  margin: 20px 0px;
+}
+
+.sidebarFriendList{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+
+.sidebarFriendName{
+    
+}
